@@ -1,6 +1,6 @@
 const handleShowText = () => {
-  var button = document.querySelector('.button');
-  var texts = document.querySelectorAll('.text');
+  const button = document.querySelector('.button');
+  const texts = document.querySelectorAll('.text');
 
   button.addEventListener('click', () => {
     texts.forEach(text => {
