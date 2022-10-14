@@ -1,4 +1,4 @@
-const a = () => {
+const handleShowText = () => {
   var button = document.querySelector('.button');
   var texts = document.querySelectorAll('.text');
 
@@ -9,4 +9,4 @@ const a = () => {
   })
 }
 
-a();
+handleShowText();
