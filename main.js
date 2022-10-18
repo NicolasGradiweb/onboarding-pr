@@ -3,8 +3,14 @@ const handleShowText = () => {
   const texts = document.querySelectorAll('.text');
 
   button.addEventListener('click', () => {
+    const isActive = button.dataset.active === 'true';
+
+    button.dataset.active = !isActive;
+
     texts.forEach(text => {
-      text.classList.remove('hidden');
+      isActive
+      ? text.classList.add('hidden')
+      : text.classList.remove('hidden')
     })
   })
 }
