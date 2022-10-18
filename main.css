@@ -1,12 +1,19 @@
+body {
+  background-color: #2f4f4f;
+}
+
 .button {
   width: 14rem;
   border-radius: 0.75rem;
-  background-color: #fff;
+  background-color: #2f4f4f;
+  color: #d3d3d3;
+  border-color: #d3d3d3;
   cursor: pointer;
 }
 
 .text {
   font-size: 15px;
+  color: #d3d3d3;
 }
 
 .hidden {
